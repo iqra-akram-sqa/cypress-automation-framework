@@ -1,4 +1,4 @@
-# Cypress Automation Framework
+# Cypress Learning Automation Framework
 
 A modern, scalable end-to-end automation testing framework built with Cypress using the Page Object Model (POM) and modular utilities.
 
