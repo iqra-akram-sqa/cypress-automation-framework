@@ -53,19 +53,25 @@ README.md # Project documentation
 ---
 
 ## Getting Started
+---
 
 ### Prerequisites
 - Node.js (LTS)
 - Git
-  
+- 
+  ---
+
 ### Install Dependencies
 npm install
+---
 
 ### Open Cypress Test Runner
 npx cypress open
+---
 
 ### Run Tests in Headless Mode
 npx cypress run
+---
 
 ### Writing Tests
 
@@ -73,6 +79,7 @@ npx cypress run
 - Create page objects inside cypress/pages/
 - Keep assertions inside test files
 - Reuse logic via custom commands and utilities
+---
 
 ### Example Test (Page Object Based)
 import LoginPage from '../pages/LoginPage';
@@ -91,6 +98,7 @@ describe('Login Page Test', () => {
     loginPage.assertLoginSuccess();
   });
 });
+---
 
 ### Use Cases Covered
 - UI validation
