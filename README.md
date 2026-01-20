@@ -22,21 +22,24 @@ The framework follows industry standards commonly used in professional QA teams.
 
 ---
 ## Project Structure
+<pre>
 cypress/
-├── e2e/
-│ └── *.cy.js # Test specifications
-├── pages/
-│ └── *.js # Page Object classes
-├── fixtures/
-│ └── *.json # Test data
-├── support/
-│ ├── commands.js # Custom Cypress commands
-│ ├── e2e.js # Global configuration
-│ └── utils/
-│ └── *.js # Utility/helper functions
-cypress.config.js # Cypress configuration
-package.json # Project dependencies
-README.md # Project documentation
+ ├── e2e/
+ │   └── *.cy.js              # Test specifications
+ ├── pages/
+ │   └── *.js                 # Page Object classes
+ ├── fixtures/
+ │   └── *.json               # Test data
+ ├── support/
+ │   ├── commands.js          # Custom Cypress commands
+ │   ├── e2e.js               # Global configuration
+ │   └── utils/
+ │       └── *.js             # Utility/helper functions
+cypress.config.js             # Cypress configuration
+package.json                  # Project dependencies
+README.md                     # Project documentation
+</pre>
+
 
 
 ---
