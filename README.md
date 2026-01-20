@@ -1,45 +1,27 @@
-# Cypress Practice Framework
+# Cypress Automation Framework
 
-A modern, maintainable Cypress automation framework leveraging the **Page Object Model (POM)** and modular utilities.
-
----
-
-## 📌 Overview
-
-This project provides a robust and scalable structure for end-to-end testing using Cypress, focusing on **code reusability, readability, and maintainability**.
+A modern, scalable end-to-end automation testing framework built with Cypress using the Page Object Model (POM) and modular utilities.
 
 ---
 
-## 📂 Directory Structure
+## Overview
 
-cypress/
-├── e2e/
-│ └── *.cy.js # Test specifications
-├── pages/
-│ └── *.js # Page Object classes
-├── support/
-│ ├── commands.js # Custom Cypress commands
-│ ├── e2e.js # Global setup
-│ └── utils/
-│ └── *.js # Utilities (URLs, helpers)
-cypress.config.js # Cypress configuration
-README.md # Project documentation
+This project demonstrates best practices for web automation testing using Cypress.  
+It is designed to be maintainable, reusable, and easy to scale, making it suitable for real-world QA automation projects.
 
+The framework follows industry standards commonly used in professional QA teams.
 
 ---
 
-## ✨ Key Features
+## Tech Stack
 
-- **Page Object Model (POM)** for maintainable tests  
-- **Custom Commands** for reusable actions  
-- **Utility Modules** for shared helpers  
-- **Plugin Support** (e.g., cypress-xpath)
+- Cypress
+- JavaScript
+- Node.js
+- Page Object Model (POM)
 
 ---
 
-## 🚀 Getting Started
+## Project Structure
 
-### Install dependencies
-```bash
-npm install
-Run tests
+
