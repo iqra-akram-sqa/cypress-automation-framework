@@ -21,7 +21,6 @@ The framework follows industry standards commonly used in professional QA teams.
 - Page Object Model (POM)
 
 ---
-
 ## Project Structure
 cypress/
 ├── e2e/
@@ -53,24 +52,19 @@ README.md # Project documentation
 ---
 
 ## Getting Started
----
-
 ### Prerequisites
 - Node.js (LTS)
-- Git
-- 
-  ---
+- Git  
 
 ### Install Dependencies
 npm install
----
 
 ### Open Cypress Test Runner
 npx cypress open
----
 
 ### Run Tests in Headless Mode
 npx cypress run
+
 ---
 
 ### Writing Tests
@@ -79,6 +73,8 @@ npx cypress run
 - Create page objects inside cypress/pages/
 - Keep assertions inside test files
 - Reuse logic via custom commands and utilities
+
+
 ---
 
 ### Example Test (Page Object Based)
@@ -98,6 +94,7 @@ describe('Login Page Test', () => {
     loginPage.assertLoginSuccess();
   });
 });
+
 ---
 
 ### Use Cases Covered
