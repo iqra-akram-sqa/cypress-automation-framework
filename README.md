@@ -59,12 +59,12 @@ README.md                     # Project documentation
 <pre>
 - Node.js (LTS)
 - Git  
-</pre>pre>
+</pre>
 
 ### Install Dependencies
 <pre>
 npm install
-</pre>pre>
+</pre>
 
 
 ### Open Cypress Test Runner
